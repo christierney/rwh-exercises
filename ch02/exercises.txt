@@ -1,0 +1,16 @@
+#1a
+
+* False :: Bool
+* (["foo", "bar"], 'a') :: ([[Char]], Char)
+* [(True, []), (False, [['a']])] :: [(Bool, [[Char]])]
+
+#1b
+
+Possible valid behaviors of `last :: [a] -> a` are returning any single element
+of the list. The function cannot return more than one element (because the 
+return type is not a list) and cannot return something not in the list (because
+it must return something with the same type as the list elements, without
+"knowing" what the real type is.)
+
+#3
+Exception: Prelude.last: empty list
