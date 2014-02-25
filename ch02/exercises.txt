@@ -13,4 +13,4 @@ it must return something with the same type as the list elements, without
 "knowing" what the real type is.)
 
 #3
-Exception: Prelude.last: empty list
+Exception: Prelude.head: empty list

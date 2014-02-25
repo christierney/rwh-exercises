@@ -1,1 +1,1 @@
-lastButOne xs = last (take ((-) (length xs) 1) xs)
+lastButOne xs = head (tail (reverse xs))
